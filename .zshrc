@@ -1,6 +1,13 @@
 export ZSH="/Users/tatu/.oh-my-zsh"
 ZSH_THEME="bira"
-plugins=(git zsh-nvm virtualenv node-prompt ruby-prompt)
+plugins=(
+    git
+    zsh-nvm
+    pipenv
+    node-prompt
+    ruby-prompt
+    python-prompt
+)
 source $ZSH/oh-my-zsh.sh
 
 # Node.js / nvm
@@ -12,5 +19,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # Python / Pipenv
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 export PIPENV_IGNORE_VIRTUALENVS=1
 export PIPENV_VENV_IN_PROJECT=1
