@@ -1,2 +1,2 @@
-# custom-zsh
-My ZSH plugins and theme
+# zsh
+My ZSH plugins, theme and config
